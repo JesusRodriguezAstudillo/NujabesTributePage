@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+        </script>
+        <style>
+            body {
+                font-family: sans-serif;
+                text-align: center;
+                font-size: 16pt;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
+            h1 {
+                font-family: 'Kaushan Script', sans-serif;
+                font-size: 40pt;
+            }
+
+            figcaption {
+                text-align: center;
+                color: black;
+                font-size: 14pt;
+            }
+
+            img {
+                /* images are inline elements, should use display block*/
+                padding: .5em;
+                margin: auto;
+                display: block;
+                max-width: 100%;
+            }
+
+            ul {
+                text-align: left;
+            }
+
+            li {
+                padding: .4em;
+            }
+            .info {
+                background: linear-gradient(30deg, hsl(153deg, 82%, 51%), white, white, hsl(207deg, 100%, 64%), cyan);
+                margin-top: 1%;
+                padding: 1em;
+                border-radius: 10px;
+            }
+
+            #img-div {
+                border: 20px;
+                border-radius: 10px;
+                background: linear-gradient(30deg, hsl(207deg, 100%, 64%), cyan, white, white, hsl(342deg, 72%, 50%));
+                margin-bottom: 1;
+                padding: .5em;
+            }
+
+        </style>
+    </header>
+    <body>
+        <main id="main">
+            <h1 id="title">Seba Jun</h1>
+            <p>A producer who redefined Hip Hop.</p>
+            <div id="img-div">
+                <img id="image" src="https://bandcampblog.files.wordpress.com/2017/11/nujabes_600.jpg?w=640">
+                <figcaption id="img-caption">Seba Jun, better know as Nujabes, producing music.</figcaption>
+            </div>
+            <section id="tribute-info">
+            <div class="info">
+                <h2>The Nujabes Sound</h2>
+                <p>Nujabes's sound stands out in the hip hop world because he combined soulful jazz beats to create highly emotive pieces of music. The mellow beats of his music is both beautiful and relaxing. 
+                    As such, you are likely to find some music pieces in lo-fi youtube playlists meant for studying and relaxing. If you would like to listen to his first album click on the video below.</p>
+                <iframe width="50%" height="50%" src="https://www.youtube.com/embed/7xZY8VJHqU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                <h2>A timeline of Nujabes's life</h2>
+                <ul>
+                    <li><Strong>1974</Strong> - Nujabes is born on Febreuary in Minato, Tokyo, Japan.</li>
+                    <li><Strong>1995</Strong> - Nujabes opens a record store.</li>
+                    <li><Strong>1998</Strong> - Nujabes begins to produce music.</li>
+                    <li><Strong>2003</Strong> - Nujabes releases his first solo album, Metaphorical Music, in August.</li>
+                    <li><Strong>2004</Strong> - The anime Samurai Champloo releases in May and features several tracks produced by Nujabes.</li>
+                    <li><Strong>2010</Strong> - Seba Jun passes away in February after a traffic accident in Shibuya, Tokyo, Japan.</li>
+                </ul>
+                <p>If you want to learn more about the impact that Nujabes had on Hip Hop read this
+                <a href="https://theculturetrip.com/asia/japan/articles/nujabes-the-japanese-icon-who-shaped-the-future-of-hip-hop/" target="_blank" id="tribute-link">article</a>
+                .</p>
+            </div>
+            </section>
+        </main>
+    </body>
+</html>
